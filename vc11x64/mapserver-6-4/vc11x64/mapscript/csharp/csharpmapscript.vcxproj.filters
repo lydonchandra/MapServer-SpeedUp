@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\mapscriptCSHARP_wrap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\mapscript\csharp\CMakeLists.txt" />
+    <CustomBuild Include="..\..\..\mapscript\mapscript.i" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5E2D9350-9BE0-4832-A567-A14D9C44A4DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

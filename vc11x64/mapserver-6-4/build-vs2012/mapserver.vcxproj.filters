@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\cgiutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgeos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maporaclespatial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsearch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\classobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapoutput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwmslayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\layerobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgraticule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapservutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapxbase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maphash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapowscommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapshape.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapxml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maphttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapxmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcairo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapimageio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappluginlayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsymbol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapchart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapimagemap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptclutf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcluster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappostgis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptemplate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcontext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapjoin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappostgresql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplabel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapprimitive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcpl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapproject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcrypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplegend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\hittest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapprojhack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapquantization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapunion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdraw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplibxml2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapquery.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maputil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\strptime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdrawgdal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapraster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapuvraster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdummyrenderer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maprasterquery.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maperror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapregex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwcs11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcfiltercommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maprendering.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwcs20.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcsld.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapresample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgdal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcsos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapscale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwfs11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgeomtransform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogroutput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsde.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwfslayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapagg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapkml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgeomutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapkmlrenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcontour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsmoothing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\regex-0.12\regex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_arc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_vcgen_dash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_vcgen_contour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_curves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_embedded_raster_fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_trans_affine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_vcgen_stroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_font_freetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_line_aa_basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\clipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C9982AB4-89A3-3961-B129-D3252A72CA6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

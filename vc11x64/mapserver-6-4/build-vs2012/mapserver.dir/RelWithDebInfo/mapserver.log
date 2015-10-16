@@ -1,0 +1,139 @@
+﻿Build started 10/16/2015 8:57:50 PM.
+     1>Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\mapserver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012" /I"E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include" /I"E:\sdk\vc11x64\regex-0.12" /IE:\sdk\vc11x64\include /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D _WINDOWS /D NDEBUG /D REGEX_MALLOC /D USE_GENERIC_MS_NINT /D HAVE_STRING_H /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D mapserver_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mapserver.dir\RelWithDebInfo\\" /Fd"mapserver.dir\RelWithDebInfo\vc110.pdb" /Gd /TC /errorReport:prompt "E:\sdk\vc11x64\mapserver-6-4\mapdraw.c"
+         mapdraw.c
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(708): warning C4550: expression evaluates to a function which is missing an argument list
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(1679): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(1695): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(1708): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(1874): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(1896): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(1912): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(2349): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(2350): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(2881): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(2882): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3011): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3012): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3017): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3018): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3088): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3106): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3116): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3119): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3133): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>E:\sdk\vc11x64\mapserver-6-4\mapdraw.c(3136): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\RelWithDebInfo\mapserver.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib crypt32.lib ws2_32.lib Secur32.Lib E:\sdk\vc11x64\lib\cairo.lib E:\sdk\vc11x64\lib\cfitsio.lib E:\sdk\vc11x64\lib\clientlib.lib E:\sdk\vc11x64\lib\expat.lib E:\sdk\vc11x64\lib\fontconfig.lib E:\sdk\vc11x64\lib\freetype2411.lib E:\sdk\vc11x64\lib\freexl.lib E:\sdk\vc11x64\lib\freexl_i.lib E:\sdk\vc11x64\lib\fribidi.lib E:\sdk\vc11x64\lib\gd.lib E:\sdk\vc11x64\lib\gdal_i.lib E:\sdk\vc11x64\lib\geos.lib E:\sdk\vc11x64\lib\geos_c.lib E:\sdk\vc11x64\lib\giflib.lib E:\sdk\vc11x64\lib\harfbuzz.lib E:\sdk\vc11x64\lib\hdf5.lib E:\sdk\vc11x64\lib\hdf5_cpp.lib E:\sdk\vc11x64\lib\hdf5_hl.lib E:\sdk\vc11x64\lib\hdf5_hl_cpp.lib E:\sdk\vc11x64\lib\hdfdll.lib E:\sdk\vc11x64\lib\iconv.lib E:\sdk\vc11x64\lib\libcurl_imp.lib E:\sdk\vc11x64\lib\libeay32.lib E:\sdk\vc11x64\lib\libecwj2.lib E:\sdk\vc11x64\lib\libfcgi.lib E:\sdk\vc11x64\lib\libjbig.lib E:\sdk\vc11x64\lib\libjpeg.lib E:\sdk\vc11x64\lib\libkea.lib E:\sdk\vc11x64\lib\libkmlbase.lib E:\sdk\vc11x64\lib\libkmlconvenience.lib E:\sdk\vc11x64\lib\libkmldom.lib E:\sdk\vc11x64\lib\libkmlengine.lib E:\sdk\vc11x64\lib\libkmlregionator.lib E:\sdk\vc11x64\lib\libkmlxsd.lib E:\sdk\vc11x64\lib\libmysql.lib E:\sdk\vc11x64\lib\libpng.lib E:\sdk\vc11x64\lib\libpq.lib E:\sdk\vc11x64\lib\libpqdll.lib "E:\sdk\vc11x64\lib\libsvg-cairo.lib" E:\sdk\vc11x64\lib\libsvg.lib E:\sdk\vc11x64\lib\libtiff_i.lib E:\sdk\vc11x64\lib\libxml2.lib E:\sdk\vc11x64\lib\mapserver.lib E:\sdk\vc11x64\lib\mfhdfdll.lib E:\sdk\vc11x64\lib\minizip.lib E:\sdk\vc11x64\lib\netcdf.lib E:\sdk\vc11x64\lib\openjp2.lib "E:\sdk\vc11x64\lib\pixman-1.lib" E:\sdk\vc11x64\lib\poppler.lib E:\sdk\vc11x64\lib\proj.lib E:\sdk\vc11x64\lib\proj_i.lib E:\sdk\vc11x64\lib\spatialite.lib E:\sdk\vc11x64\lib\spatialite_i.lib E:\sdk\vc11x64\lib\ssleay32.lib E:\sdk\vc11x64\lib\szip.lib E:\sdk\vc11x64\lib\xdrdll.lib "E:\sdk\vc11x64\lib\xerces-c_2.lib" E:\sdk\vc11x64\lib\zdll.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/RelWithDebInfo/mapserver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/RelWithDebInfo/mapserver.lib" /MACHINE:X64  /machine:x64 /debug /DLL mapserver.dir\RelWithDebInfo\cgiutil.obj
+         mapserver.dir\RelWithDebInfo\mapgeos.obj
+         mapserver.dir\RelWithDebInfo\maporaclespatial.obj
+         mapserver.dir\RelWithDebInfo\mapsearch.obj
+         mapserver.dir\RelWithDebInfo\mapwms.obj
+         mapserver.dir\RelWithDebInfo\classobject.obj
+         mapserver.dir\RelWithDebInfo\mapgml.obj
+         mapserver.dir\RelWithDebInfo\mapoutput.obj
+         mapserver.dir\RelWithDebInfo\mapwmslayer.obj
+         mapserver.dir\RelWithDebInfo\layerobject.obj
+         mapserver.dir\RelWithDebInfo\mapgraticule.obj
+         mapserver.dir\RelWithDebInfo\mapows.obj
+         mapserver.dir\RelWithDebInfo\mapservutil.obj
+         mapserver.dir\RelWithDebInfo\mapxbase.obj
+         mapserver.dir\RelWithDebInfo\maphash.obj
+         mapserver.dir\RelWithDebInfo\mapowscommon.obj
+         mapserver.dir\RelWithDebInfo\mapshape.obj
+         mapserver.dir\RelWithDebInfo\mapxml.obj
+         mapserver.dir\RelWithDebInfo\mapbits.obj
+         mapserver.dir\RelWithDebInfo\maphttp.obj
+         mapserver.dir\RelWithDebInfo\mapparser.obj
+         mapserver.dir\RelWithDebInfo\mapstring.obj
+         mapserver.dir\RelWithDebInfo\mapxmp.obj
+         mapserver.dir\RelWithDebInfo\mapcairo.obj
+         mapserver.dir\RelWithDebInfo\mapimageio.obj
+         mapserver.dir\RelWithDebInfo\mappluginlayer.obj
+         mapserver.dir\RelWithDebInfo\mapsymbol.obj
+         mapserver.dir\RelWithDebInfo\mapchart.obj
+         mapserver.dir\RelWithDebInfo\mapimagemap.obj
+         mapserver.dir\RelWithDebInfo\mappool.obj
+         mapserver.dir\RelWithDebInfo\maptclutf.obj
+         mapserver.dir\RelWithDebInfo\mapcluster.obj
+         mapserver.dir\RelWithDebInfo\mapio.obj
+         mapserver.dir\RelWithDebInfo\mappostgis.obj
+         mapserver.dir\RelWithDebInfo\maptemplate.obj
+         mapserver.dir\RelWithDebInfo\mapcontext.obj
+         mapserver.dir\RelWithDebInfo\mapjoin.obj
+         mapserver.dir\RelWithDebInfo\mappostgresql.obj
+         mapserver.dir\RelWithDebInfo\mapthread.obj
+         mapserver.dir\RelWithDebInfo\mapcopy.obj
+         mapserver.dir\RelWithDebInfo\maplabel.obj
+         mapserver.dir\RelWithDebInfo\mapprimitive.obj
+         mapserver.dir\RelWithDebInfo\maptile.obj
+         mapserver.dir\RelWithDebInfo\mapcpl.obj
+         mapserver.dir\RelWithDebInfo\maplayer.obj
+         mapserver.dir\RelWithDebInfo\mapproject.obj
+         mapserver.dir\RelWithDebInfo\maptime.obj
+         mapserver.dir\RelWithDebInfo\mapcrypto.obj
+         mapserver.dir\RelWithDebInfo\maplegend.obj
+         mapserver.dir\RelWithDebInfo\hittest.obj
+         mapserver.dir\RelWithDebInfo\mapprojhack.obj
+         mapserver.dir\RelWithDebInfo\maptree.obj
+         mapserver.dir\RelWithDebInfo\mapdebug.obj
+         mapserver.dir\RelWithDebInfo\maplexer.obj
+         mapserver.dir\RelWithDebInfo\mapquantization.obj
+         mapserver.dir\RelWithDebInfo\mapunion.obj
+         mapserver.dir\RelWithDebInfo\mapdraw.obj
+         mapserver.dir\RelWithDebInfo\maplibxml2.obj
+         mapserver.dir\RelWithDebInfo\mapquery.obj
+         mapserver.dir\RelWithDebInfo\maputil.obj
+         mapserver.dir\RelWithDebInfo\strptime.obj
+         mapserver.dir\RelWithDebInfo\mapdrawgdal.obj
+         mapserver.dir\RelWithDebInfo\mapraster.obj
+         mapserver.dir\RelWithDebInfo\mapuvraster.obj
+         mapserver.dir\RelWithDebInfo\mapdummyrenderer.obj
+         mapserver.dir\RelWithDebInfo\mapobject.obj
+         mapserver.dir\RelWithDebInfo\maprasterquery.obj
+         mapserver.dir\RelWithDebInfo\mapwcs.obj
+         mapserver.dir\RelWithDebInfo\maperror.obj
+         mapserver.dir\RelWithDebInfo\mapogcfilter.obj
+         mapserver.dir\RelWithDebInfo\mapregex.obj
+         mapserver.dir\RelWithDebInfo\mapwcs11.obj
+         mapserver.dir\RelWithDebInfo\mapfile.obj
+         mapserver.dir\RelWithDebInfo\mapogcfiltercommon.obj
+         mapserver.dir\RelWithDebInfo\maprendering.obj
+         mapserver.dir\RelWithDebInfo\mapwcs20.obj
+         mapserver.dir\RelWithDebInfo\mapgd.obj
+         mapserver.dir\RelWithDebInfo\mapogcsld.obj
+         mapserver.dir\RelWithDebInfo\mapresample.obj
+         mapserver.dir\RelWithDebInfo\mapwfs.obj
+         mapserver.dir\RelWithDebInfo\mapgdal.obj
+         mapserver.dir\RelWithDebInfo\mapogcsos.obj
+         mapserver.dir\RelWithDebInfo\mapscale.obj
+         mapserver.dir\RelWithDebInfo\mapwfs11.obj
+         mapserver.dir\RelWithDebInfo\mapgeomtransform.obj
+         mapserver.dir\RelWithDebInfo\mapogroutput.obj
+         mapserver.dir\RelWithDebInfo\mapsde.obj
+         mapserver.dir\RelWithDebInfo\mapwfslayer.obj
+         mapserver.dir\RelWithDebInfo\mapagg.obj
+         mapserver.dir\RelWithDebInfo\mapkml.obj
+         mapserver.dir\RelWithDebInfo\mapgeomutil.obj
+         mapserver.dir\RelWithDebInfo\mapkmlrenderer.obj
+         mapserver.dir\RelWithDebInfo\mapogr.obj
+         mapserver.dir\RelWithDebInfo\mapcontour.obj
+         mapserver.dir\RelWithDebInfo\mapsmoothing.obj
+         mapserver.dir\RelWithDebInfo\regex.obj
+         mapserver.dir\RelWithDebInfo\agg_arc.obj
+         mapserver.dir\RelWithDebInfo\agg_vcgen_dash.obj
+         mapserver.dir\RelWithDebInfo\agg_vcgen_contour.obj
+         mapserver.dir\RelWithDebInfo\agg_curves.obj
+         mapserver.dir\RelWithDebInfo\agg_embedded_raster_fonts.obj
+         mapserver.dir\RelWithDebInfo\agg_trans_affine.obj
+         mapserver.dir\RelWithDebInfo\agg_vcgen_stroke.obj
+         mapserver.dir\RelWithDebInfo\agg_font_freetype.obj
+         mapserver.dir\RelWithDebInfo\agg_line_aa_basics.obj
+         mapserver.dir\RelWithDebInfo\clipper.obj
+         mapserver.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\build-vs2012\RelWithDebInfo\mapserver.dll
+     1>Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\mapserver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43

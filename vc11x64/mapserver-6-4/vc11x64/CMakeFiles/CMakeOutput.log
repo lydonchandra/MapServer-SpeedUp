@@ -1,0 +1,201 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdC, Configuration: Debug x64 ------
+1>  CMakeCCompilerId.c
+1>  CompilerIdC.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\2.8.12.1\CompilerIdC\.\CompilerIdC.exe
+1>  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/2.8.12.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdCXX, Configuration: Debug x64 ------
+1>  CMakeCXXCompilerId.cpp
+1>  CompilerIdCXX.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\2.8.12.1\CompilerIdCXX\.\CompilerIdCXX.exe
+1>  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1598586199
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1598586199, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1598586199.dir\Debug\\" /Fd"cmTryCompileExec1598586199.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>  cmTryCompileExec1598586199.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1598586199.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2020145364
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2020145364, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2020145364.dir\Debug\\" /Fd"cmTryCompileExec2020145364.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>  cmTryCompileExec2020145364.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2020145364.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4060277753
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4060277753, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4060277753.dir\Debug\\" /Fd"cmTryCompileExec4060277753.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt testCXXCompiler.cxx
+1>  
+1>  testCXXCompiler.cxx
+1>  cmTryCompileExec4060277753.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4060277753.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2544777647
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2544777647, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2544777647.dir\Debug\\" /Fd"cmTryCompileExec2544777647.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>  cmTryCompileExec2544777647.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2544777647.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1273424749
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1273424749, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1273424749.dir\Debug\\" /Fd"cmTryCompileExec1273424749.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec1273424749.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1273424749.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec754702093
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec754702093, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec754702093.dir\Debug\\" /Fd"cmTryCompileExec754702093.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec754702093.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec754702093.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2682255342
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2682255342, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2682255342.dir\Debug\\" /Fd"cmTryCompileExec2682255342.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2682255342.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2682255342.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Performing C SOURCE FILE Test GIF_GifFileType_UserData succeded with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3718544640
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3718544640, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/builds/release-1700-x64/include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D GIF_GifFileType_UserData /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3718544640.dir\Debug\\" /Fd"cmTryCompileExec3718544640.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt src.c
+1>  
+1>  src.c
+1>  cmTryCompileExec3718544640.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3718544640.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Source file was:
+
+#include <gif_lib.h>
+
+int main()
+{
+   GifFileType* tmp;
+   tmp->UserData;
+  return 0;
+}
+

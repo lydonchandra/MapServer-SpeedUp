@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindSWIG.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindPackageMessage.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/UseSWIG.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindJNI.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindPackageMessage.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindJava.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/FindPackageMessage.cmake
+E:/builds/cmake-2.8.12.1-win32-x86/share/cmake-2.8/Modules/CMakeParseArguments.cmake

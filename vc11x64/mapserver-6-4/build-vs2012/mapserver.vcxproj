@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C4E20307-CA82-3DF4-ACED-2EC667C9C1FF}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mapserver</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mapserver.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mapserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mapserver.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mapserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mapserver.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mapserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mapserver.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mapserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;crypt32.lib;ws2_32.lib;Secur32.Lib;E:\sdk\vc11x64\lib\cairo.lib;E:\sdk\vc11x64\lib\cfitsio.lib;E:\sdk\vc11x64\lib\clientlib.lib;E:\sdk\vc11x64\lib\expat.lib;E:\sdk\vc11x64\lib\fontconfig.lib;E:\sdk\vc11x64\lib\freetype2411.lib;E:\sdk\vc11x64\lib\freexl.lib;E:\sdk\vc11x64\lib\freexl_i.lib;E:\sdk\vc11x64\lib\fribidi.lib;E:\sdk\vc11x64\lib\gd.lib;E:\sdk\vc11x64\lib\gdal_i.lib;E:\sdk\vc11x64\lib\geos.lib;E:\sdk\vc11x64\lib\geos_c.lib;E:\sdk\vc11x64\lib\giflib.lib;E:\sdk\vc11x64\lib\harfbuzz.lib;E:\sdk\vc11x64\lib\hdf5.lib;E:\sdk\vc11x64\lib\hdf5_cpp.lib;E:\sdk\vc11x64\lib\hdf5_hl.lib;E:\sdk\vc11x64\lib\hdf5_hl_cpp.lib;E:\sdk\vc11x64\lib\hdfdll.lib;E:\sdk\vc11x64\lib\iconv.lib;E:\sdk\vc11x64\lib\libcurl_imp.lib;E:\sdk\vc11x64\lib\libeay32.lib;E:\sdk\vc11x64\lib\libecwj2.lib;E:\sdk\vc11x64\lib\libfcgi.lib;E:\sdk\vc11x64\lib\libjbig.lib;E:\sdk\vc11x64\lib\libjpeg.lib;E:\sdk\vc11x64\lib\libkea.lib;E:\sdk\vc11x64\lib\libkmlbase.lib;E:\sdk\vc11x64\lib\libkmlconvenience.lib;E:\sdk\vc11x64\lib\libkmldom.lib;E:\sdk\vc11x64\lib\libkmlengine.lib;E:\sdk\vc11x64\lib\libkmlregionator.lib;E:\sdk\vc11x64\lib\libkmlxsd.lib;E:\sdk\vc11x64\lib\libmysql.lib;E:\sdk\vc11x64\lib\libpng.lib;E:\sdk\vc11x64\lib\libpq.lib;E:\sdk\vc11x64\lib\libpqdll.lib;E:\sdk\vc11x64\lib\libsvg-cairo.lib;E:\sdk\vc11x64\lib\libsvg.lib;E:\sdk\vc11x64\lib\libtiff_i.lib;E:\sdk\vc11x64\lib\libxml2.lib;E:\sdk\vc11x64\lib\mapserver.lib;E:\sdk\vc11x64\lib\mfhdfdll.lib;E:\sdk\vc11x64\lib\minizip.lib;E:\sdk\vc11x64\lib\netcdf.lib;E:\sdk\vc11x64\lib\openjp2.lib;E:\sdk\vc11x64\lib\pixman-1.lib;E:\sdk\vc11x64\lib\poppler.lib;E:\sdk\vc11x64\lib\proj.lib;E:\sdk\vc11x64\lib\proj_i.lib;E:\sdk\vc11x64\lib\spatialite.lib;E:\sdk\vc11x64\lib\spatialite_i.lib;E:\sdk\vc11x64\lib\ssleay32.lib;E:\sdk\vc11x64\lib\szip.lib;E:\sdk\vc11x64\lib\xdrdll.lib;E:\sdk\vc11x64\lib\xerces-c_2.lib;E:\sdk\vc11x64\lib\zdll.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/Debug/mapserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/Debug/mapserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\sdk\vc11x64\lib\libpng.lib;E:\sdk\vc11x64\lib\zlib.lib;E:\sdk\vc11x64\lib\libjpeg.lib;E:\sdk\vc11x64\lib\freetype2411.lib;E:\sdk\vc11x64\lib\proj.lib;E:\sdk\vc11x64\lib\fribidi.lib;E:\sdk\vc11x64\lib\cairo.lib;E:\sdk\vc11x64\lib\geos_c.lib;E:\sdk\vc11x64\lib\libpq.lib;E:\sdk\vc11x64\lib\gdal_i.lib;E:\sdk\vc11x64\lib\libxml2.lib;E:\sdk\vc11x64\lib\giflib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/Release/mapserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/Release/mapserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\sdk\vc11x64\lib\libpng.lib;E:\sdk\vc11x64\lib\zlib.lib;E:\sdk\vc11x64\lib\libjpeg.lib;E:\sdk\vc11x64\lib\freetype2411.lib;E:\sdk\vc11x64\lib\proj.lib;E:\sdk\vc11x64\lib\fribidi.lib;E:\sdk\vc11x64\lib\cairo.lib;E:\sdk\vc11x64\lib\geos_c.lib;E:\sdk\vc11x64\lib\libpq.lib;E:\sdk\vc11x64\lib\gdal_i.lib;E:\sdk\vc11x64\lib\libxml2.lib;E:\sdk\vc11x64\lib\giflib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/MinSizeRel/mapserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/MinSizeRel/mapserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";mapserver_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\sdk\vc11x64\mapserver-6-4\build-vs2012;E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include;E:\sdk\vc11x64\regex-0.12;E:\sdk\vc11x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;crypt32.lib;ws2_32.lib;Secur32.Lib;E:\sdk\vc11x64\lib\cairo.lib;E:\sdk\vc11x64\lib\cfitsio.lib;E:\sdk\vc11x64\lib\clientlib.lib;E:\sdk\vc11x64\lib\expat.lib;E:\sdk\vc11x64\lib\fontconfig.lib;E:\sdk\vc11x64\lib\freetype2411.lib;E:\sdk\vc11x64\lib\freexl.lib;E:\sdk\vc11x64\lib\freexl_i.lib;E:\sdk\vc11x64\lib\fribidi.lib;E:\sdk\vc11x64\lib\gd.lib;E:\sdk\vc11x64\lib\gdal_i.lib;E:\sdk\vc11x64\lib\geos.lib;E:\sdk\vc11x64\lib\geos_c.lib;E:\sdk\vc11x64\lib\giflib.lib;E:\sdk\vc11x64\lib\harfbuzz.lib;E:\sdk\vc11x64\lib\hdf5.lib;E:\sdk\vc11x64\lib\hdf5_cpp.lib;E:\sdk\vc11x64\lib\hdf5_hl.lib;E:\sdk\vc11x64\lib\hdf5_hl_cpp.lib;E:\sdk\vc11x64\lib\hdfdll.lib;E:\sdk\vc11x64\lib\iconv.lib;E:\sdk\vc11x64\lib\libcurl_imp.lib;E:\sdk\vc11x64\lib\libeay32.lib;E:\sdk\vc11x64\lib\libecwj2.lib;E:\sdk\vc11x64\lib\libfcgi.lib;E:\sdk\vc11x64\lib\libjbig.lib;E:\sdk\vc11x64\lib\libjpeg.lib;E:\sdk\vc11x64\lib\libkea.lib;E:\sdk\vc11x64\lib\libkmlbase.lib;E:\sdk\vc11x64\lib\libkmlconvenience.lib;E:\sdk\vc11x64\lib\libkmldom.lib;E:\sdk\vc11x64\lib\libkmlengine.lib;E:\sdk\vc11x64\lib\libkmlregionator.lib;E:\sdk\vc11x64\lib\libkmlxsd.lib;E:\sdk\vc11x64\lib\libmysql.lib;E:\sdk\vc11x64\lib\libpng.lib;E:\sdk\vc11x64\lib\libpq.lib;E:\sdk\vc11x64\lib\libpqdll.lib;E:\sdk\vc11x64\lib\libsvg-cairo.lib;E:\sdk\vc11x64\lib\libsvg.lib;E:\sdk\vc11x64\lib\libtiff_i.lib;E:\sdk\vc11x64\lib\libxml2.lib;E:\sdk\vc11x64\lib\mapserver.lib;E:\sdk\vc11x64\lib\mfhdfdll.lib;E:\sdk\vc11x64\lib\minizip.lib;E:\sdk\vc11x64\lib\netcdf.lib;E:\sdk\vc11x64\lib\openjp2.lib;E:\sdk\vc11x64\lib\pixman-1.lib;E:\sdk\vc11x64\lib\poppler.lib;E:\sdk\vc11x64\lib\proj.lib;E:\sdk\vc11x64\lib\proj_i.lib;E:\sdk\vc11x64\lib\spatialite.lib;E:\sdk\vc11x64\lib\spatialite_i.lib;E:\sdk\vc11x64\lib\ssleay32.lib;E:\sdk\vc11x64\lib\szip.lib;E:\sdk\vc11x64\lib\xdrdll.lib;E:\sdk\vc11x64\lib\xerces-c_2.lib;E:\sdk\vc11x64\lib\zdll.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/RelWithDebInfo/mapserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/build-vs2012/RelWithDebInfo/mapserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/build-vs2012 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPNG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindJPEG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFreetype.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindProj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFriBiDi.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindCairo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFCGI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGEOS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindPostgreSQL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGDAL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindLibXml2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGIF.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapserver-config.h.in;E:\sdk\vc11x64\mapserver-6-4\mapserver-version.h.in;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/build-vs2012 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPNG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindJPEG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFreetype.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindProj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFriBiDi.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindCairo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFCGI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGEOS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindPostgreSQL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGDAL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindLibXml2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGIF.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapserver-config.h.in;E:\sdk\vc11x64\mapserver-6-4\mapserver-version.h.in;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/build-vs2012 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPNG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindJPEG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFreetype.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindProj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFriBiDi.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindCairo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFCGI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGEOS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindPostgreSQL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGDAL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindLibXml2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGIF.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapserver-config.h.in;E:\sdk\vc11x64\mapserver-6-4\mapserver-version.h.in;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/build-vs2012 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPNG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindJPEG.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFreetype.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindProj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFriBiDi.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindCairo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindFCGI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGEOS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\cmake\FindPostgreSQL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;E:\sdk\vc11x64\mapserver-6-4\cmake\FindGDAL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindLibXml2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGIF.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapserver-config.h.in;E:\sdk\vc11x64\mapserver-6-4\mapserver-version.h.in;E:\sdk\vc11x64\mapserver-6-4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\cgiutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgeos.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maporaclespatial.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsearch.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwms.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\classobject.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgml.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapoutput.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwmslayer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\layerobject.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgraticule.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapows.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapservutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapxbase.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maphash.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapowscommon.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapshape.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapxml.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapbits.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maphttp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapparser.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapstring.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapxmp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcairo.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapimageio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappluginlayer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsymbol.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapchart.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapimagemap.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappool.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptclutf.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcluster.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappostgis.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptemplate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcontext.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapjoin.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mappostgresql.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapthread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcopy.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplabel.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapprimitive.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptile.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcpl.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplayer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapproject.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptime.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcrypto.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplegend.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\hittest.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapprojhack.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maptree.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdebug.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplexer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapquantization.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapunion.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdraw.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maplibxml2.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapquery.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maputil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\strptime.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdrawgdal.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapraster.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapuvraster.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapdummyrenderer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapobject.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maprasterquery.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwcs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maperror.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcfilter.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapregex.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwcs11.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapfile.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcfiltercommon.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\maprendering.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwcs20.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgd.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcsld.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapresample.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwfs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgdal.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogcsos.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapscale.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwfs11.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgeomtransform.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogroutput.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsde.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapwfslayer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapagg.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapkml.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapgeomutil.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapkmlrenderer.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapogr.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapcontour.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\mapsmoothing.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\regex-0.12\regex.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_arc.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_vcgen_dash.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_vcgen_contour.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_curves.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_embedded_raster_fonts.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_trans_affine.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_vcgen_stroke.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_font_freetype.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\agg_line_aa_basics.cpp" />
+    <ClCompile Include="E:\sdk\vc11x64\mapserver-6-4\renderers\agg\src\clipper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/sdk/vc11x64/mapserver-6-4/build-vs2012/ZERO_CHECK.vcxproj">
+      <Project>1EB6C008-C51B-3C3C-92BA-184E0D802449</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

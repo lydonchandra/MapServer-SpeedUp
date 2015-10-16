@@ -1,0 +1,10 @@
+﻿Build started 10/16/2015 7:45:51 PM.
+     1>Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\shp2img.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\RelWithDebInfo\shp2img.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib RelWithDebInfo\mapserver.lib E:\sdk\vc11x64\lib\libpng.lib E:\sdk\vc11x64\lib\zlib.lib E:\sdk\vc11x64\lib\libjpeg.lib E:\sdk\vc11x64\lib\freetype2411.lib E:\sdk\vc11x64\lib\proj.lib E:\sdk\vc11x64\lib\fribidi.lib E:\sdk\vc11x64\lib\cairo.lib E:\sdk\vc11x64\lib\geos_c.lib E:\sdk\vc11x64\lib\libpq.lib E:\sdk\vc11x64\lib\gdal_i.lib E:\sdk\vc11x64\lib\libxml2.lib E:\sdk\vc11x64\lib\giflib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/RelWithDebInfo/shp2img.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/RelWithDebInfo/shp2img.lib" /MACHINE:X64  /machine:x64 /debug shp2img.dir\RelWithDebInfo\shp2img.obj
+         shp2img.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\build-vs2012\RelWithDebInfo\shp2img.exe
+     1>Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\shp2img.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

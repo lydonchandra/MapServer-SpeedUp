@@ -1,0 +1,16 @@
+﻿Build started 10/9/2015 9:28:37 PM.
+     1>Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\msencrypt.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/CMakeLists.txt
+         CMake does not need to re-run because E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012" /I"E:\sdk\vc11x64\mapserver-6-4\renderers\agg\include" /I"E:\sdk\vc11x64\regex-0.12" /IE:\sdk\vc11x64\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D REGEX_MALLOC /D USE_GENERIC_MS_NINT /D HAVE_STRING_H /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"msencrypt.dir\Debug\\" /Fd"msencrypt.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\sdk\vc11x64\mapserver-6-4\msencrypt.c"
+         msencrypt.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\Debug\msencrypt.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\mapserver.lib E:\sdk\vc11x64\lib\libpng.lib E:\sdk\vc11x64\lib\zlib.lib E:\sdk\vc11x64\lib\libjpeg.lib E:\sdk\vc11x64\lib\freetype2411.lib E:\sdk\vc11x64\lib\proj.lib E:\sdk\vc11x64\lib\fribidi.lib E:\sdk\vc11x64\lib\cairo.lib E:\sdk\vc11x64\lib\geos_c.lib E:\sdk\vc11x64\lib\libpq.lib E:\sdk\vc11x64\lib\gdal_i.lib E:\sdk\vc11x64\lib\libxml2.lib E:\sdk\vc11x64\lib\giflib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/Debug/msencrypt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/Debug/msencrypt.lib" /MACHINE:X64  /machine:x64 /debug msencrypt.dir\Debug\msencrypt.obj
+         msencrypt.vcxproj -> E:\sdk\vc11x64\mapserver-6-4\build-vs2012\Debug\msencrypt.exe
+     1>Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\msencrypt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89

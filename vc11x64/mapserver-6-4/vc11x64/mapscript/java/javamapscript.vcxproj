@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BCC47C25-1C98-4C6F-8BE3-B50D39D5F34E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>javamapscript</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">javamapscript.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">javamapscript</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">javamapscript.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">javamapscript</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">javamapscript.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">javamapscript</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">javamapscript.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">javamapscript</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Compiling java source files, creating mapscript.jar</Message>
+      <Command>setlocal
+cd E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\javac.exe edu/umn/gis/mapscript/*.java
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\jar.exe cf mapscript.jar edu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\Debug\mapserver.lib;E:\builds\release-1700-x64\lib\libpng.lib;E:\builds\release-1700-x64\lib\zdll.lib;E:\builds\release-1700-x64\lib\libjpeg.lib;E:\builds\release-1700-x64\lib\freetype2411.lib;E:\builds\release-1700-x64\lib\proj_i.lib;E:\builds\release-1700-x64\lib\gd.lib;E:\builds\release-1700-x64\lib\fribidi.lib;E:\builds\release-1700-x64\lib\iconv.lib;E:\builds\release-1700-x64\lib\cairo.lib;E:\builds\release-1700-x64\lib\geos_c.lib;E:\builds\release-1700-x64\lib\libpqdll.lib;E:\builds\release-1700-x64\lib\gdal_i.lib;E:\builds\release-1700-x64\lib\libsvg.lib;E:\builds\release-1700-x64\lib\libsvg-cairo.lib;E:\builds\release-1700-x64\lib\libcurl_imp.lib;E:\builds\release-1700-x64\lib\libxml2.lib;E:\builds\release-1700-x64\lib\giflib.lib;WS2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/Debug/javamapscript.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/Debug/javamapscript.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Compiling java source files, creating mapscript.jar</Message>
+      <Command>setlocal
+cd E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\javac.exe edu/umn/gis/mapscript/*.java
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\jar.exe cf mapscript.jar edu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\Release\mapserver.lib;E:\builds\release-1700-x64\lib\libpng.lib;E:\builds\release-1700-x64\lib\zdll.lib;E:\builds\release-1700-x64\lib\libjpeg.lib;E:\builds\release-1700-x64\lib\freetype2411.lib;E:\builds\release-1700-x64\lib\proj_i.lib;E:\builds\release-1700-x64\lib\gd.lib;E:\builds\release-1700-x64\lib\fribidi.lib;E:\builds\release-1700-x64\lib\iconv.lib;E:\builds\release-1700-x64\lib\cairo.lib;E:\builds\release-1700-x64\lib\geos_c.lib;E:\builds\release-1700-x64\lib\libpqdll.lib;E:\builds\release-1700-x64\lib\gdal_i.lib;E:\builds\release-1700-x64\lib\libsvg.lib;E:\builds\release-1700-x64\lib\libsvg-cairo.lib;E:\builds\release-1700-x64\lib\libcurl_imp.lib;E:\builds\release-1700-x64\lib\libxml2.lib;E:\builds\release-1700-x64\lib\giflib.lib;WS2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/Release/javamapscript.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/Release/javamapscript.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Compiling java source files, creating mapscript.jar</Message>
+      <Command>setlocal
+cd E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\javac.exe edu/umn/gis/mapscript/*.java
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\jar.exe cf mapscript.jar edu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\MinSizeRel\mapserver.lib;E:\builds\release-1700-x64\lib\libpng.lib;E:\builds\release-1700-x64\lib\zdll.lib;E:\builds\release-1700-x64\lib\libjpeg.lib;E:\builds\release-1700-x64\lib\freetype2411.lib;E:\builds\release-1700-x64\lib\proj_i.lib;E:\builds\release-1700-x64\lib\gd.lib;E:\builds\release-1700-x64\lib\fribidi.lib;E:\builds\release-1700-x64\lib\iconv.lib;E:\builds\release-1700-x64\lib\cairo.lib;E:\builds\release-1700-x64\lib\geos_c.lib;E:\builds\release-1700-x64\lib\libpqdll.lib;E:\builds\release-1700-x64\lib\gdal_i.lib;E:\builds\release-1700-x64\lib\libsvg.lib;E:\builds\release-1700-x64\lib\libsvg-cairo.lib;E:\builds\release-1700-x64\lib\libcurl_imp.lib;E:\builds\release-1700-x64\lib\libxml2.lib;E:\builds\release-1700-x64\lib\giflib.lib;WS2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/MinSizeRel/javamapscript.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/MinSizeRel/javamapscript.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;REGEX_MALLOC;USE_GENERIC_MS_NINT;HAVE_STRING_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";javamapscript_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:/sdk/vc11x64/mapserver-6-4/vc11x64;E:/sdk/vc11x64/mapserver-6-4/renderers/agg/include;E:/builds/regex-0.12;E:/builds/release-1700-x64/include;E:/builds/Oracle/instantclient_12_1-x64/sdk/include;C:/Program Files (x86)/Windows Kits/8.0/Include/um;C:/Java/jdk1.8.0_25x64/include;C:/Java/jdk1.8.0_25x64/include/win32;E:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc;E:/sdk/vc11x64/mapserver-6-4/mapscript;E:/sdk/vc11x64/mapserver-6-4/mapscript/java;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Compiling java source files, creating mapscript.jar</Message>
+      <Command>setlocal
+cd E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\javac.exe edu/umn/gis/mapscript/*.java
+if %errorlevel% neq 0 goto :cmEnd
+C:\Java\jdk1.8.0_25x64\bin\jar.exe cf mapscript.jar edu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\RelWithDebInfo\mapserver.lib;E:\builds\release-1700-x64\lib\libpng.lib;E:\builds\release-1700-x64\lib\zdll.lib;E:\builds\release-1700-x64\lib\libjpeg.lib;E:\builds\release-1700-x64\lib\freetype2411.lib;E:\builds\release-1700-x64\lib\proj_i.lib;E:\builds\release-1700-x64\lib\gd.lib;E:\builds\release-1700-x64\lib\fribidi.lib;E:\builds\release-1700-x64\lib\iconv.lib;E:\builds\release-1700-x64\lib\cairo.lib;E:\builds\release-1700-x64\lib\geos_c.lib;E:\builds\release-1700-x64\lib\libpqdll.lib;E:\builds\release-1700-x64\lib\gdal_i.lib;E:\builds\release-1700-x64\lib\libsvg.lib;E:\builds\release-1700-x64\lib\libsvg-cairo.lib;E:\builds\release-1700-x64\lib\libcurl_imp.lib;E:\builds\release-1700-x64\lib\libxml2.lib;E:\builds\release-1700-x64\lib\giflib.lib;WS2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/RelWithDebInfo/javamapscript.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/RelWithDebInfo/javamapscript.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\mapscript\java\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/vc11x64 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\UseSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJNI.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJava.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/vc11x64 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\UseSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJNI.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJava.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/vc11x64 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\UseSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJNI.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJava.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -HE:/sdk/vc11x64/mapserver-6-4 -BE:/sdk/vc11x64/mapserver-6-4/vc11x64 --check-stamp-file E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/java/CMakeLists.txt;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\UseSWIG.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJNI.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindJava.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\mapscript\mapscript.i">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Swig source</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -E make_directory E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript
+if %errorlevel% neq 0 goto :cmEnd
+E:\builds\SWIG-1.3.39\swig.exe -java -package edu.umn.gis.mapscript -outdir E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript -IE:/sdk/vc11x64/mapserver-6-4/vc11x64 -IE:/sdk/vc11x64/mapserver-6-4/renderers/agg/include -IE:/builds/regex-0.12 -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/Oracle/instantclient_12_1-x64/sdk/include "-IC:/Program Files (x86)/Windows Kits/8.0/Include/um" -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IC:/Java/jdk1.8.0_25x64/include -IC:/Java/jdk1.8.0_25x64/include/win32 -IC:/Java/jdk1.8.0_25x64/include -IE:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc -IE:/sdk/vc11x64/mapserver-6-4/mapscript -IE:/sdk/vc11x64/mapserver-6-4/mapscript/java -o E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/../mapscriptJAVA_wrap.c E:/sdk/vc11x64/mapserver-6-4/mapscript/java/../mapscript.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/mapscript.i;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\..\mapscript.i;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\..\mapscriptJAVA_wrap.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Swig source</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -E make_directory E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript
+if %errorlevel% neq 0 goto :cmEnd
+E:\builds\SWIG-1.3.39\swig.exe -java -package edu.umn.gis.mapscript -outdir E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript -IE:/sdk/vc11x64/mapserver-6-4/vc11x64 -IE:/sdk/vc11x64/mapserver-6-4/renderers/agg/include -IE:/builds/regex-0.12 -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/Oracle/instantclient_12_1-x64/sdk/include "-IC:/Program Files (x86)/Windows Kits/8.0/Include/um" -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IC:/Java/jdk1.8.0_25x64/include -IC:/Java/jdk1.8.0_25x64/include/win32 -IC:/Java/jdk1.8.0_25x64/include -IE:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc -IE:/sdk/vc11x64/mapserver-6-4/mapscript -IE:/sdk/vc11x64/mapserver-6-4/mapscript/java -o E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/../mapscriptJAVA_wrap.c E:/sdk/vc11x64/mapserver-6-4/mapscript/java/../mapscript.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/mapscript.i;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\..\mapscript.i;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\..\mapscriptJAVA_wrap.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Swig source</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -E make_directory E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript
+if %errorlevel% neq 0 goto :cmEnd
+E:\builds\SWIG-1.3.39\swig.exe -java -package edu.umn.gis.mapscript -outdir E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript -IE:/sdk/vc11x64/mapserver-6-4/vc11x64 -IE:/sdk/vc11x64/mapserver-6-4/renderers/agg/include -IE:/builds/regex-0.12 -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/Oracle/instantclient_12_1-x64/sdk/include "-IC:/Program Files (x86)/Windows Kits/8.0/Include/um" -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IC:/Java/jdk1.8.0_25x64/include -IC:/Java/jdk1.8.0_25x64/include/win32 -IC:/Java/jdk1.8.0_25x64/include -IE:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc -IE:/sdk/vc11x64/mapserver-6-4/mapscript -IE:/sdk/vc11x64/mapserver-6-4/mapscript/java -o E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/../mapscriptJAVA_wrap.c E:/sdk/vc11x64/mapserver-6-4/mapscript/java/../mapscript.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/mapscript.i;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\..\mapscript.i;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\..\mapscriptJAVA_wrap.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Swig source</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\builds\cmake-2.8.12.1-win32-x86\bin\cmake.exe -E make_directory E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript
+if %errorlevel% neq 0 goto :cmEnd
+E:\builds\SWIG-1.3.39\swig.exe -java -package edu.umn.gis.mapscript -outdir E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/edu/umn/gis/mapscript -IE:/sdk/vc11x64/mapserver-6-4/vc11x64 -IE:/sdk/vc11x64/mapserver-6-4/renderers/agg/include -IE:/builds/regex-0.12 -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/Oracle/instantclient_12_1-x64/sdk/include "-IC:/Program Files (x86)/Windows Kits/8.0/Include/um" -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IE:/builds/release-1700-x64/include -IC:/Java/jdk1.8.0_25x64/include -IC:/Java/jdk1.8.0_25x64/include/win32 -IC:/Java/jdk1.8.0_25x64/include -IE:/sdk/vc11x64/mapserver-6-4/mapscript/swiginc -IE:/sdk/vc11x64/mapserver-6-4/mapscript -IE:/sdk/vc11x64/mapserver-6-4/mapscript/java -o E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapscript/java/../mapscriptJAVA_wrap.c E:/sdk/vc11x64/mapserver-6-4/mapscript/java/../mapscript.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/sdk/vc11x64/mapserver-6-4/mapscript/mapscript.i;E:\sdk\vc11x64\mapserver-6-4\mapscript\java\..\mapscript.i;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\sdk\vc11x64\mapserver-6-4\vc11x64\mapscript\java\..\mapscriptJAVA_wrap.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\mapscriptJAVA_wrap.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/sdk/vc11x64/mapserver-6-4/vc11x64/ZERO_CHECK.vcxproj">
+      <Project>71CADF73-AE4E-4DD7-8996-2B092FD2C8FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/sdk/vc11x64/mapserver-6-4/vc11x64/mapserver.vcxproj">
+      <Project>0EBF2E43-2A83-4498-80BF-D1952518FCFF</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

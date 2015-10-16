@@ -1,0 +1,470 @@
+Determining if the function strrstr exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_742d1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:00 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_742d1.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_742d1.dir\Debug\cmTC_742d1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_742d1.dir\Debug\\" /Fd"cmTC_742d1.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_742d1.dir\Debug\\" /Fd"cmTC_742d1.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_742d1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_742d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_742d1.lib" /MACHINE:X64  /machine:x64 /debug cmTC_742d1.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strrstr referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_742d1.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strrstr referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_742d1.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_742d1.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.37
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_d8b49.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:01 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d8b49.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_d8b49.dir\Debug\cmTC_d8b49.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d8b49.dir\Debug\\" /Fd"cmTC_d8b49.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d8b49.dir\Debug\\" /Fd"cmTC_d8b49.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_d8b49.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_d8b49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_d8b49.lib" /MACHINE:X64  /machine:x64 /debug cmTC_d8b49.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_d8b49.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_d8b49.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_d8b49.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Determining if the function strcasestr exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_c61cb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:01 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c61cb.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_c61cb.dir\Debug\cmTC_c61cb.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasestr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c61cb.dir\Debug\\" /Fd"cmTC_c61cb.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasestr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c61cb.dir\Debug\\" /Fd"cmTC_c61cb.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_c61cb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_c61cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_c61cb.lib" /MACHINE:X64  /machine:x64 /debug cmTC_c61cb.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasestr referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_c61cb.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasestr referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_c61cb.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_c61cb.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_6140d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:02 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6140d.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_6140d.dir\Debug\cmTC_6140d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6140d.dir\Debug\\" /Fd"cmTC_6140d.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6140d.dir\Debug\\" /Fd"cmTC_6140d.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_6140d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_6140d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_6140d.lib" /MACHINE:X64  /machine:x64 /debug cmTC_6140d.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcat referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_6140d.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcat referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_6140d.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_6140d.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_74aea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:03 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_74aea.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_74aea.dir\Debug\cmTC_74aea.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_74aea.dir\Debug\\" /Fd"cmTC_74aea.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_74aea.dir\Debug\\" /Fd"cmTC_74aea.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_74aea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_74aea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_74aea.lib" /MACHINE:X64  /machine:x64 /debug cmTC_74aea.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcpy referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_74aea.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcpy referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_74aea.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_74aea.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Determining if the function strncasecmp exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_ca325.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:04 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ca325.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_ca325.dir\Debug\cmTC_ca325.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ca325.dir\Debug\\" /Fd"cmTC_ca325.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ca325.dir\Debug\\" /Fd"cmTC_ca325.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_ca325.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_ca325.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_ca325.lib" /MACHINE:X64  /machine:x64 /debug cmTC_ca325.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strncasecmp referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_ca325.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strncasecmp referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_ca325.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_ca325.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Determining if the function lrintf exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_98f3d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:05 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_98f3d.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_98f3d.dir\Debug\cmTC_98f3d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lrintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_98f3d.dir\Debug\\" /Fd"cmTC_98f3d.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lrintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_98f3d.dir\Debug\\" /Fd"cmTC_98f3d.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_98f3d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_98f3d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_98f3d.lib" /MACHINE:X64  /machine:x64 /debug cmTC_98f3d.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol lrintf referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_98f3d.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol lrintf referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_98f3d.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_98f3d.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Determining if the function lrint exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_837ef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:06 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_837ef.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_837ef.dir\Debug\cmTC_837ef.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lrint /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_837ef.dir\Debug\\" /Fd"cmTC_837ef.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lrint /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_837ef.dir\Debug\\" /Fd"cmTC_837ef.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_837ef.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_837ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_837ef.lib" /MACHINE:X64  /machine:x64 /debug cmTC_837ef.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol lrint referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_837ef.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol lrint referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_837ef.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_837ef.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.37
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_20351.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:07 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20351.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_20351.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_20351.dir\Debug\cmTC_20351.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_20351.dir\Debug\\" /Fd"cmTC_20351.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_20351.dir\Debug\\" /Fd"cmTC_20351.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20351.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20351.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20351.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20351.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.22
+
+
+Performing C SOURCE FILE Test HAVE_SYNC_FETCH_AND_ADD failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_20a7b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:07 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_20a7b.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_20a7b.dir\Debug\cmTC_20a7b.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SYNC_FETCH_AND_ADD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_20a7b.dir\Debug\\" /Fd"cmTC_20a7b.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SYNC_FETCH_AND_ADD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_20a7b.dir\Debug\\" /Fd"cmTC_20a7b.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\src.c(6): warning C4013: '__sync_fetch_and_add' undefined; assuming extern returning int [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_20a7b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_20a7b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_20a7b.lib" /MACHINE:X64  /machine:x64 /debug cmTC_20a7b.dir\Debug\src.obj
+src.obj : error LNK2019: unresolved external symbol __sync_fetch_and_add referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj]
+E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_20a7b.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\src.c(6): warning C4013: '__sync_fetch_and_add' undefined; assuming extern returning int [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj]
+
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj" (default target) (1) ->
+(Link target) -> 
+  src.obj : error LNK2019: unresolved external symbol __sync_fetch_and_add referenced in function main [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj]
+  E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_20a7b.exe : fatal error LNK1120: 1 unresolved externals [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_20a7b.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.34
+
+Source file was:
+
+int main(int argc, char **argv) {
+   long x=0,y=0;
+   for(x=0;x<5;x++) {
+     if(y>1) break;
+     y=__sync_fetch_and_add(&x,1);
+   }
+}
+Determining if the function PQserverVersion exists in the pq failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_2ee45.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.6.81.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/9/2015 9:22:08 PM.
+Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_2ee45.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2ee45.dir\Debug\".
+  Creating directory "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_2ee45.dir\Debug\cmTC_2ee45.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=PQserverVersion /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2ee45.dir\Debug\\" /Fd"cmTC_2ee45.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=PQserverVersion /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2ee45.dir\Debug\\" /Fd"cmTC_2ee45.dir\Debug\vc110.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\Debug\cmTC_2ee45.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/POSTGRESQL_LIBRARY" /LIBPATH:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/POSTGRESQL_LIBRARY/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib pq.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_2ee45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/sdk/vc11x64/mapserver-6-4/build-vs2012/CMakeFiles/CMakeTmp/Debug/cmTC_2ee45.lib" /MACHINE:X64  /machine:x64 /debug cmTC_2ee45.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: cannot open file 'pq.lib' [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_2ee45.vcxproj]
+Done Building Project "E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_2ee45.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_2ee45.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'pq.lib' [E:\sdk\vc11x64\mapserver-6-4\build-vs2012\CMakeFiles\CMakeTmp\cmTC_2ee45.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.28
+
+

@@ -1,0 +1,240 @@
+Determining if the function strrstr exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec324196884
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec324196884, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec324196884.dir\Debug\\" /Fd"cmTryCompileExec324196884.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol strrstr referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec324196884.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3828238110
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3828238110, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3828238110.dir\Debug\\" /Fd"cmTryCompileExec3828238110.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3828238110.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strcasestr exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3475761586
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3475761586, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasestr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3475761586.dir\Debug\\" /Fd"cmTryCompileExec3475761586.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasestr referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3475761586.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4249761764
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4249761764, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4249761764.dir\Debug\\" /Fd"cmTryCompileExec4249761764.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcat referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4249761764.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec742454131
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec742454131, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec742454131.dir\Debug\\" /Fd"cmTryCompileExec742454131.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcpy referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec742454131.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strncasecmp exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2398088967
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2398088967, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2398088967.dir\Debug\\" /Fd"cmTryCompileExec2398088967.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol strncasecmp referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2398088967.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function lrintf exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2737141937
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2737141937, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lrintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2737141937.dir\Debug\\" /Fd"cmTryCompileExec2737141937.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol lrintf referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2737141937.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function lrint exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1378062619
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1378062619, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lrint /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1378062619.dir\Debug\\" /Fd"cmTryCompileExec1378062619.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol lrint referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1378062619.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3542593662
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3542593662, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3542593662.dir\Debug\\" /Fd"cmTryCompileExec3542593662.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckIncludeFile.c
+1>  
+1>  CheckIncludeFile.c
+1>CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Performing C SOURCE FILE Test HAVE_SYNC_FETCH_AND_ADD failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec72295118
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec72295118, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SYNC_FETCH_AND_ADD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec72295118.dir\Debug\\" /Fd"cmTryCompileExec72295118.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt src.c
+1>  
+1>  src.c
+1>src.c(6): warning C4013: '__sync_fetch_and_add' undefined; assuming extern returning int
+1>src.obj : error LNK2019: unresolved external symbol __sync_fetch_and_add referenced in function main
+1>E:\sdk\vc11x64\mapserver-6-4\vc11x64\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec72295118.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source file was:
+
+int main(int argc, char **argv) {
+   long x=0,y=0;
+   for(x=0;x<5;x++) {
+     if(y>1) break;
+     y=__sync_fetch_and_add(&x,1);
+   }
+}
+Determining if the function PQserverVersion exists in the pq failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec802451326
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec802451326, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=PQserverVersion /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec802451326.dir\Debug\\" /Fd"cmTryCompileExec802451326.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "E:\builds\cmake-2.8.12.1-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>LINK : fatal error LNK1104: cannot open file 'pq.lib'
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2100851326
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2100851326, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.61030 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /I"E:/sdk/vc11x64/mapserver-6-4/vc11x64/CMakeFiles/CMakeTmp/math.h" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2100851326.dir\Debug\\" /Fd"cmTryCompileExec2100851326.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckIncludeFiles.c
+1>  
+1>  CheckIncludeFiles.c
+1>CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
